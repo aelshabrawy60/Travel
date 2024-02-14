@@ -9,7 +9,7 @@ function Hero(){
         <div className='hero_container'>
             <HeroText/>
             <div className="hero_img">
-                <img src="./public/notes.jpg"></img>
+                <img src="src\assets\paris_1.jpg"></img>
             </div>
             <DForm/>
         </div>
