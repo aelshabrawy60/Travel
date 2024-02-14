@@ -1,0 +1,90 @@
+.trending_card_container{
+    min-width: 300px;
+    max-width: 470px;
+    height: 400px;
+}
+
+.trending_card_top{
+    height: 55%;
+    position: relative;
+}
+
+.trending_card_price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.trending_card_price h4{
+    margin: 0px;
+}
+
+.trending_card_top i{
+    font-size: 1.2rem;
+    position: absolute;
+    right: 20px;
+    top :40px;
+    color: white;
+}
+
+.trending_card_container img{
+    filter: brightness(0.6);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.trending_card_bottom{
+    color: gray;
+    padding: 16px;
+    background-color: white;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.trending_card_title{
+    color: black;
+}
+
+.trending_card_bottom i{
+    margin-right: 10px;
+}
+
+.trending_card_reviews i{
+    font-size: 0.94rem;
+    margin-right: 4px;
+}
+
+.trending_card_reviews{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.trending_card_featurs{
+    position: absolute;
+    top :35px;
+    left: 10px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.featuers_container{
+    font-size: 0.9rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.Featuerd{
+    color: var(--primary);
+}
+
+.Sale{
+    color: red;
+}

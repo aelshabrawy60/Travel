@@ -1,0 +1,12 @@
+
+
+:root{
+    --primary: rgb(0, 119, 167);
+}
+
+
+body{
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+    font-family: "Kanit", sans-serif;
+}

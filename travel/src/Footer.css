@@ -1,0 +1,38 @@
+.footer_mid_main{
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    column-gap: clamp(20px, 7vw, 200px);
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.footer_mid_main li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+@media (max-width: 1200px){
+    .footer_container{
+       justify-content: start;
+    }
+}
+.fa-phone-volume{
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.mail button{
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+}
+

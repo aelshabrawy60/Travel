@@ -1,0 +1,20 @@
+.Choose_card_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    width: 350px;
+    min-width: 200px;
+}
+
+.Choose_card_container h5{
+    margin-top: 20px;
+}
+
+.Choose_card_container i{
+    font-size: 90px;
+    color: var(--primary);
+}
+.Choose_card_container p{
+    color: gray;
+}
