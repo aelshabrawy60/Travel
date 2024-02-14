@@ -4,7 +4,7 @@ function TravelNotes(){
     return(
         <div className="travel_notes_container">
             <div className="travel_notes_img">
-                <img src="public/notes.jpg"></img>
+                <img src="src/assets/notes.jpg"></img>
             </div>
             <div className="travel_notes_text">
                 <h1>Travel Tips</h1>

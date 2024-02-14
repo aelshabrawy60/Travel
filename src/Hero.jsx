@@ -9,7 +9,7 @@ function Hero(){
         <div className='hero_container'>
             <HeroText/>
             <div className="hero_img">
-                <img src="src/assets/react.svg"></img>
+                <img src="./src/assets/react.svg"></img>
             </div>
             <DForm/>
         </div>
